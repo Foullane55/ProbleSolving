@@ -14,12 +14,13 @@
 
 //solution//
 
-var twoSum = (nums, target)=>{
-  const obj = {}
+var twoSum = (nums, target) => {
+  const obj = {};
   for (let i = 0; i < nums.length; i++) {
-      const match = target - nums[i]
-      if (match in obj) return [i,obj[match]]
-         obj[nums[i]] = i
-}
-}
+    const match = target - nums[i];
+    if (match in obj) return [obj[match], i];
+    obj[nums[i]] = i;
+  }
+};
 
+console.log(twoSum([5, 2, 6, 4], 9));
