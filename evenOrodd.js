@@ -1,3 +1,5 @@
-const evenOrOdd = function (num) {
-  return num % 2 ?"odd":"even"
+const evenOrOdd = function (n) {
+  return n % 2 ?"odd":"even"
 }
+
+
