@@ -1,2 +1,1 @@
-const evenOrOdd =  (n) =>  n % 2 ?"odd":"even";
-
+const evenOrOdd =  (n) => n % 2 ?"odd":"even";
